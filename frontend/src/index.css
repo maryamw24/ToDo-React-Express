@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.conatiner{
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.top{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+}
+.input{
+  width: 70%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-bottom: 3px solid black;
+  margin-right: 10px;
+}
+.add{
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.todo{
+  width: 80%;
+  position: relative;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.icons{
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%);
+
+}
